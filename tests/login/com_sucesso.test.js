@@ -7,6 +7,6 @@ module.exports = {
             .with('zumbi@dospalmares.com', 'pwd123')
 
         sideBar
-            .expectLoggedUser('Quilombola')
+            .expectLoggedUser('Quilombo')
     }
 }

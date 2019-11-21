@@ -8,7 +8,7 @@
     "firefox:login": ".\\node_modules\\.bin\\nightwatch.cmd --group login --env=firefox",
     "headless:login": ".\\node_modules\\.bin\\nightwatch.cmd --group login --env=headless",
     "test": ".\\node_modules\\.bin\\nightwatch.cmd",
-    "test:ci": "./node_modules/.bin/nightwatch --group login --env=headless"
+    "test:ci": "./node_modules/.bin/nightwatch --env=headless"
   },
   "keywords": [
     "qaninja",
