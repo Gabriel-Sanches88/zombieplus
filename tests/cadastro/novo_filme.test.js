@@ -44,7 +44,7 @@ module.exports = {
         let movie = browser.page.movie()
 
         movie
-            .waitForElementVisible('@list', 5000)            
+            .waitForElementVisible('@list', 15000)            
             .assert.containsText('@list', movieData.title)
     }
 }
